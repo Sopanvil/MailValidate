@@ -11,7 +11,7 @@ def mail_validate():
 #Время начала выполнения
 start = time.time()
 
-for i in range(100000):
+for i in range(1000000):
 
     t = threading.Thread(target=mail_validate,
                          name='Thread{}'.format(i+1))
