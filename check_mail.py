@@ -8,7 +8,7 @@ def mail_validate():
     # Заглушка со слипом
     time.sleep(1)
 
-#Начало выполнения
+#Время начала выполнения
 start = time.time()
 
 for i in range(100000):
