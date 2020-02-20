@@ -7,7 +7,7 @@ def mail_validate():
     for i in range(1800):
         time.sleep(1)
 
-#Начало выполнения
+#Время начала выполнения
 start = time.time()
 
 t_l = []
