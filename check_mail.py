@@ -1,7 +1,5 @@
 import threading
 import time
-import requests
-import multiprocessing
 
 
 def mail_validate():
