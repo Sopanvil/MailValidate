@@ -12,17 +12,17 @@ def mail_validate():
 #Начало выполнения
 start = time.time()
 
-thread_list = []
+t_l = []
 
 #1кк / 1800 ~= 556
 for i in range(556):
 
     t = threading.Thread(target=mail_validate,
                          name='Thread{}'.format(i+1))
-    thread_list.append(t)
+    t_l.append(t)
     t.start()
 
-for i in thread_list:
+for i in t_l:
     i.join()
 
 # Конец выполнения
